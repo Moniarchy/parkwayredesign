@@ -1,0 +1,16 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  min-width: 435px;
+}
+body {
+  overflow: auto;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
