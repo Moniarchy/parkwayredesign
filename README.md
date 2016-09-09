@@ -23,12 +23,12 @@ As you work on this goal, consider these questions:
 
 ## Specifications
 
-- [ ] Site has at least two pages.
-- [ ] All links work correctly (i.e. no broken links).
-- [ ] All images and other external resources load correctly.
+- [X] Site has at least two pages.
+- [X] All links work correctly (i.e. no broken links)(The links are purposely placeholder links).
+- [X] All images and other external resources load correctly.
 - [ ] Mobile responsive.
-- [ ] At least one page is a replica of its original.
-- [ ] At least one page is a redesign.
+- [X] At least one page is a replica of its original.
+- [X] At least one page is a redesign.
 - [ ] Incorporates a slideshow.
 - [X] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
