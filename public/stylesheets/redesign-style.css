@@ -8,9 +8,43 @@ html, body{
 }
 body {
   overflow: auto;
+  background-color: #2A2A2A;
+  background-image: url(/images/perfect.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 li {
   list-style-type: none;
   display: inline-block;
+  padding-right: 90px;
+  font-family: Oswald, sans-serif;
 }
+
+li:hover {
+  font-style: italic;
+  color: green;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  opacity: 1
+}
+
+.nav-bar {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #230909;
+  opacity: .7
+}
+
+.nav-bar:hover {
+  background-color: #222222;
+  opacity: .9
+}
+
