@@ -69,16 +69,34 @@ block content
 
     p We don’t yet have the following films, but plan on getting them soon: The Secret Lives of Pets, Cafe Society Star Trek, Don’t Think Twice, Pete’s Dragon, Sausage Party, Hell or High Water, Florence Foster Jenkins, In Order of Disappearance, Don’t Breathe, Southside With You, and more! Here’s what’s coming up:
 
-    p #[a(href='#') Thursday, September 8, 2016]
-      ul
-        li 4:00 pm GHOSTBUSTERS (Baby Brigade)
-        li 4:45 pm LITTLE MEN
-        li 6:35 pm HUNT FOR THE WILDERPEOPLE
-        li 6:55 pm CAPTAIN FANTASTIC
-        li 7:30 pm TRIVIA NIGHT, free on the Mezzanine!
-        li 9:00 pm THE BEST OF CINEKINK 2016, with post-film discussion
-        li 9:30 pm REPO MAN (Parkway Classics)
-    p #[a(href='#') Friday, September 9, 2016]
+    .movie-times 
+      .movie-times-day
+        a(href='#') Thursday, September 8, 2016
+      .movie-time
+        .movie-datetime 4:00 pm 
+        .movie-time-title GHOSTBUSTERS (Baby Brigade)
+      .movie-time
+        .movie-datetime 4:45 pm 
+        .movie-time-title LITTLE MEN
+      .movie-time
+        .movie-datetime 6:35 pm 
+        .movie-time-title HUNT FOR THE WILDERPEOPLE
+      .movie-time
+        .movie-datetime 6:55 pm 
+        .movie-time-title CAPTAIN FANTASTIC
+      .movie-time
+        .movie-datetime 7:30 pm 
+        .movie-time-title TRIVIA NIGHT, free on the Mezzanine!
+      .movie-time
+        .movie-datetime 9:00 pm 
+        .movie-time-title THE BEST OF CINEKINK 2016, with post-film discussion
+      .movie-time
+        .movie-datetime 9:30 pm 
+        .movie-time-title REPO MAN (Parkway Classics)
+
+    .movie-times
+      .movie-times-day
+      a(href='#') Friday, September 9, 2016
       ul
         li 4:00 pm FINDING DORY
         li 5:30 pm GHOSTBUSTERS
@@ -86,7 +104,9 @@ block content
         li 8:05 pm HUNT FOR THE WILDERPEOPLE
         li 9:10 pm TRAIN TO BUSAN
         li 10:30 pm MYSTERY MYSTERY SCIENCE THEATER 3000 (FNL)
-    p #[a(href='#') Saturday, September 10, 2016]
+
+    .movie-times 
+      a(href='#') Saturday, September 10, 2016
       ul
         li 10:00 am CEREAL CINEMA, a classic cartoon and all-you-can-eat breakfast combo
         li 12:15 pm FINDING DORY
@@ -97,7 +117,8 @@ block content
         li 7:25 pm HUNT FOR THE WILDERPEOPLE
         li 8:30 pm CAPTAIN FANTASTIC
         li 9:45 pm BLOOD FATHER
-    p 
+
+    .movie-times 
       ul
         li 
         li 
@@ -108,7 +129,8 @@ block content
         li 
         li 
         li 
-    p 
+
+    .movie-times 
       ul
         li 
         li 
@@ -119,7 +141,8 @@ block content
         li 
         li 
         li 
-    p 
+
+    .movie-times 
       ul
         li 
         li 
@@ -131,10 +154,22 @@ block content
         li 
         li 
   footer
-      p &copy; 2016 | Email | The New Parkway Theater, 474 24th Street, Oakland, CA 94612 | 510-658-7900 (Movie Hotline) 
-      br 
-      p Join The Mailing List 
-      button(type='button') Facebook
-      button(type='button') Google Plus
-      button(type='button') Yelp
-      button(type='button') Twitter
+      p
+        span &copy; 2016
+        span &nbsp;&nbsp;|&nbsp;&nbsp;
+        a(href="mailto:info@thenewparkway.com") Email
+        span &nbsp;&nbsp;|&nbsp;&nbsp;
+        a(href="http://goo.gl/maps/PwfMD") The New Parkway Theater, 474 24th Street, Oakland, CA 94612 
+        span &nbsp;&nbsp;|&nbsp;&nbsp;
+        a(href="tel://+15106587900") 510-658-7900
+        span &nbsp; (Movie Hotline)
+      p.hot-logos
+        a(href="") Join The Mailing List 
+        a.facebook(href="//facebook.com")
+          img(src="/images/facebook.png")
+        a.google-plus(href="https://plus.google.com/106192202017396211631?prsrc=3")
+          img(src="/images/google-plus.png")
+        a.yelp(href="http://www.yelp.com/biz/the-new-parkway-oakland")
+          img(src="/images/yelp.png")
+        a.twitter(href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.thenewparkway.com%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=TheNewParkway&tw_p=followbutton")
+          img(src="/images/twitter.png")

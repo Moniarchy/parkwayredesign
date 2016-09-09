@@ -113,3 +113,30 @@ footer {
   font-size: 1.2em;
   padding-bottom: 30px;
 }
+@media (max-width: 767px) {
+  
+}
+
+
+
+.hot-logos > * {
+  margin-right: 20px;
+}
+
+.movie-times-day {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.movie-time{
+
+}
+.movie-datetime {
+  display: inline-block;
+  width: 56px;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+.movie-time-title{
+  display: inline-block;
+}

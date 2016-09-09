@@ -34,9 +34,7 @@ a {
 /*media queries for everything that needs to change with screen size*/
 
 /*roughly phone size*/
-@media (max-width: 767px) {
 
-}
 
 /*roughly tablet size*/
 @media (max-width: 991px) and (min-width: 768px) {
